@@ -1,0 +1,249 @@
+.user-t {
+    margin: 15px;
+}
+
+.main_p {
+    border-bottom: 2px solid #262626;
+    color: white;
+}
+.main_p1{
+    color:white;
+    text-align: center;
+}
+.p1_p{
+    margin-top: -2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1_p span{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+.p1_p div{
+    border-top: 2px solid #fff;
+    width: 58px;
+}
+.p1_posts{
+    justify-content: start;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0!important;
+}
+.row.no-padding {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row.no-padding > [class^="col-"],
+.row.no-padding > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.p1_post {
+    width: 100%;
+    cursor: pointer;
+    height: 301.81px;
+    position: relative;
+    overflow: hidden;
+}
+
+.p1_post img {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+.p1_post video {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.follower_btn {
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.follower_btn_div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.follower_modal-head {
+    height: 46px;
+    color: white;
+    background-color: #262626;
+    border: none;
+}
+
+.follower_modal-head h1 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 180px;
+}
+
+.follower_modal {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    overflow: scroll;
+    max-height: 335px;
+    color: white;
+    background-color: #262626;
+}
+
+.follower_result {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+
+.follower_result img {
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.follower_result h5 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.follower_result span {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.profile_img {
+    flex: 0 0 auto !important;
+    width: 29% !important;
+    text-align: center;
+    position: relative;
+}
+
+.profile_img img {
+    width: 160px;
+    height: 160px;
+    margin-top: 11px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile_username {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.profile_username h2 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.profile_username_button {
+    background-color: white;
+    padding: 0 10px;
+    color: black;
+    font-weight: normal;
+    margin-left: 20px;
+    border-radius: 8px;
+    height: 30px;
+}
+
+.profile_username button:hover {
+    background-color: #DBDBDB;
+}
+
+.profile_follow {
+    display: flex;
+    margin-top: 20px;
+}
+
+.profile_follow span {
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.follower {
+    cursor: pointer;
+}
+
+.profile_bottom {
+    margin-top: 10px;
+}
+
+.profile_bottom span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile_bottom h1 {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.profile_bottom a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #E0F1FF;
+    text-decoration: none;
+}
+
+.profile_follow_btn {
+    color: white;
+    background-color: #0095F6;
+
+}
+
+.profile_follow_btn :hover {
+    background-color: #1877F2;
+}
+
+.btn_remove {
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+}
+
+.btn_remove :hover {
+    background-color: rgb(219, 219, 219) !important;
+}
+
+.follower_info {
+    flex: 1;
+}
+.follower_info a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.follower_info span{
+    color: white;
+}
+.ppd2 {
+    border-left: solid 2px #262626;
+}
+
+.follower_button {
+
+    position: fixed;
+    right: 560px;
+}

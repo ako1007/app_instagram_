@@ -1,0 +1,45 @@
+ HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!/src/main/
+!/src/test/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+**.log
+*.gz
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+'.idea'
+'.log'
+'*.mvn'
+app-instagram-server/.mvn
+app-instagram-server/mvnw
+app-instagram-server/mvnw.cmd
+app-instagram-server/target
+app-instagram-server/web
+app-instagram-server/app-instagram-server.iml
+node_modules/**.idea
+spring_app_log_file.log
+node_modules/**.idea.log
+spring_app_log_file.log

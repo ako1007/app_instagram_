@@ -1,0 +1,33 @@
+.searchbar{
+    margin-left: 174px;
+    width: 26vw;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    left: 4.6vw;
+    top: 0;
+    z-index: 1051;
+    overflow: auto;
+    transition: .5s width;
+    display: none;
+    padding: 2%;
+    border-left: 2px solid #262626;
+}
+.searchbar-head{
+    text-align: start;
+    color: white;
+    padding: 0 0 10px 0;
+    border-bottom: 2px solid #262626;
+}
+.searchbar-head h5{
+    font-size: 28px;
+    font-weight: 600;
+}
+.searchbar-head input{
+    width: 300px;
+    padding: 5px 0 5px 13px;
+    margin: 0;
+    background-color: #262626;
+    color: white;
+    border: 1px solid rgba(0,0,0,0);
+}

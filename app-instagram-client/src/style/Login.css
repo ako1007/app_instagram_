@@ -1,0 +1,147 @@
+body{
+    background-color:white ;
+}
+.loginpage_main{
+    display: flex;
+    margin: 30px 10px 10px -65px;
+}
+.loginpage_logo{
+    width: 175px;
+    margin-top: 25px;
+}
+.s1{
+    background-color: white;
+    height: 100vh;
+}
+.s2{
+    background-color: white;
+    height: 100vh;
+}
+.loginpage_rightcomponent{
+    text-align: center;
+    margin-top: 25px;
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    padding-bottom: 25px;
+    background-color: white;
+}
+.loginpage_signin{
+    margin-top: 15px;
+}
+.login_text{
+    width: 258px;
+    height: 36px;
+    margin: 5px;
+    border: 1px solid #DBDBDB;
+    background-color: #FAFAFA;
+    padding-left: 10px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.login_text:focus{
+    font-size: 16px;
+}
+.login_button{
+    width: 258px;
+    height: 36px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #0395f6;
+    background-color: #0395f6;
+    color: white;
+    margin-top: 7px;
+}
+.login_ordiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.login_or{
+    margin: 0 20px;
+    color: #8E8E8E;
+    font-weight: bold;
+}
+.login_divider{
+    border: 1px solid #DBDBDB;
+    width: 98px;
+    height: 0;
+    margin-top: 12px;
+}
+.login_fb{
+    margin-top: 30px;
+    font-weight: bold;
+    color: #385185;
+}
+.login_fb img{
+    margin-right: 3px;
+    transform: translateY(-2px);
+}
+.login_forgot{
+    color: #00376B;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
+.login_forgot a{
+    color: #00376B;
+    text-decoration: none;
+}
+.login_forgot a:hover{
+    color: #00376B;
+    text-decoration: none;
+}
+.loginpage_signupdiv{
+    width: 350px;
+    height: 56px;
+    text-align: center;
+    border: 1px solid #DBDBDB;
+    background-color: white;
+    margin-top: 25px;
+}
+.loginpage_login{
+    margin-top: 15px;
+}
+.loginpage_login a{
+    margin-left: 5px;
+    color: #0095F6;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.loginpage_login a:hover{
+    margin-left: 5px;
+    color: #0095F6;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.loginpage_signup{
+    margin-top: 15px;
+}
+.loginpage_signup a{
+    color: #0095F6;
+    margin-left: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.loginpage_signup a:hover{
+    color: #0095F6;
+    margin-left: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.loginpage_downloadSection{
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    height: 105px;
+}
+.loginpage_downloadoption{
+    margin-top: 20px;
+}
+.loginpage_dwimg{
+    margin: 5px;
+}

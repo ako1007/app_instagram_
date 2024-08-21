@@ -1,0 +1,152 @@
+.postModalBody {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 100px !important;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup-content {
+    border: 2px solid #262626;
+    width: 1000px !important;
+    height: 600px !important;
+    background-color: black;
+    padding: 20px;
+    text-align: start;
+}
+
+.post-popup-header-button {
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: darkred !important;
+    color: white;
+    cursor: pointer;
+}
+
+.post-popup-body {
+    text-align: center;
+
+}
+.row.no-padding {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row.no-padding > [class^="col-"],
+.row.no-padding > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.popup-header-btn {
+    text-align: end;
+}
+
+.QwertyBlob img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.QwertyBlob video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.QwertyBlob button{
+    z-index: 1111 !important;
+    transform: translate(-250px);
+}
+.blobCaption {
+    color: floralwhite;
+}
+
+.blobSvgDelete {
+    width: 30px;
+    height: 30px;
+}
+
+.QwertyBlob {
+    width: 560px;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+    background-color: #121212 !important;
+}
+.postComment{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    line-height: 18px;
+    outline: none;
+    border-top-style: solid;
+}
+.input_comments_1{
+    margin-right: 110px;
+}
+.send_comment_posts {
+    background-color: #4c59af;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.add-comment{
+    background-color: black;
+    color: white;
+    border: none;
+    line-height: 18px;
+    outline: none;
+    border-top-style: solid;
+}
+.blobDeleteBtn {
+    transform: translate(570px);
+}
+.postCommentBlob {
+    z-index: 99;
+    background-color: black !important;
+    color: white !important;
+    margin-top: 440px;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 300px !important;
+    height: 35px !important;
+    transform: translate(-81px,35px);
+}
+.btnCommentPostBlob{
+    z-index: 99;
+    background-color: black !important;
+    color: white !important;
+    border-radius: 10px;
+    width: 100px !important;
+    height: 35px !important;
+    margin-left: 318px;
+}

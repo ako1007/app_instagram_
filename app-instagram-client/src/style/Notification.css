@@ -1,0 +1,27 @@
+.notification{
+    width: 26vw;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    left: 4.4vw;
+    top: 0;
+    z-index: 1051;
+    overflow: auto;
+    transition: .5s width;
+    display: none;
+    padding: 2%;
+    color: white;
+    border: 2px solid #262626;
+}
+.notify_body{
+    margin-top: 24px;
+}
+.notify_body_content{
+    color: white;
+    padding: 10px 0 10px 20px;
+    margin-bottom: 8px;
+    border: 2px solid #262626;
+}
+.notify_body_content span{
+    cursor: pointer;
+}

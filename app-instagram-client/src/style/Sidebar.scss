@@ -1,0 +1,64 @@
+.side_bar {
+  padding-top: 1.5%;
+  background-color: black !important;
+  width: 16vw !important;
+  border-right: 1px solid #363636 !important;
+  margin: 0;
+  svg {
+    cursor: pointer;
+  }
+}
+
+.side_bar_pages {
+  div {
+    background-color: black !important;
+    border: none !important;
+    border-radius: 30px !important;
+    padding: 3% 0 1% 5%;
+    font-size: 1.4em;
+    color: white;
+    margin-bottom: 2%;
+    cursor: pointer;
+
+    svg {
+      width: 15%;
+      margin-right: 6%;
+      padding-bottom: 3%;
+      color: white;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    &:hover {
+      transition: .2s;
+      border-radius: 20px;
+      background-color: rgb(18, 18, 18) !important;
+      padding-left: 4%;
+    }
+  }
+}
+
+.user {
+  color: white;
+  transform: translate(17px, 20px)
+}
+.profil{
+  width: 341px;
+  div {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+    }
+
+    div {
+      font-weight: lighter;
+      margin-left: 8px;
+    }
+  }
+}
+.profil :hover{
+  background-color: gray;
+}
